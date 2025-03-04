@@ -1,0 +1,10 @@
+/*Importa os estilos do cabeçalho*/
+@import url("styles/header.css");
+/*Váriaveis globais da página*/
+:root{
+    --cor-primaria: #f3f3f3;
+    --cor-branca:#ffffff;
+}
+body{
+    background: var(--cor-primaria);
+}
