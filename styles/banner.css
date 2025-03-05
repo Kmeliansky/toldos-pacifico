@@ -1,0 +1,47 @@
+.banner{
+    background-image: url("../img/banner-background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--cor-branca);
+    text-align: center;
+    height: 437px;
+    padding: 2.5em 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between
+    
+}
+
+.banner__titulo{
+    font-size: 37px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.banner__texto{
+    font: var(--paragrafo-grande);
+    margin: 2em 0;
+}
+.botao__orcamento{
+    background: var(--cor-primaria-default);
+    border: none;
+    border-radius: 50px;
+    padding: 1em;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font: var(--funcional-pequeno);
+    text-transform: uppercase;
+    color: var(--cor-branca);
+}
+.botao__orcamento :hover{
+    background: var(--cor-primaria-dark);
+}
+.icone{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}

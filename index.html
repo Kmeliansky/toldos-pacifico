@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toldos Pacifíco</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,5 +31,51 @@
         </ul>
         </div>
    </header>
+   <section class="banner">
+        <h1 class="banner__titulo">Toldo Articulado e Italiano em São Paulo</h1>
+        <p class="banner__texto">Instalamos Toldos Articuldos e Italianos em São Paulo, com pagamento somente após a instalação. Solicite um orçamento aqui</p>
+        <button type="button" class="botao__orcamento">
+            <span class="text">Orçamento</span>
+            <img class="icone" src="img/whatsapp.svg" alt="Faça seu orçamento pelo Whatsapp aqui">
+          </button>          
+   </section>
+
+   <section class="carrossel">
+        <h2 class="carrossel__titulo">Fotos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar.webp" alt="Toldo articulado em Policarbonato"></div>
+            <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-2.webp" alt="Toldo articulado em Policarbonato"></div>
+            <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-3.webp" alt="Toldo articulado em Policarbonato"></div>
+            <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-4.webp" alt="Toldo articulado em Policarbonato"></div>
+            <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-5.webp" alt="Toldo articulado em Policarbonato"></div>
+
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+        </div>
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 1,
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+   </script>
 </body>
 </html>

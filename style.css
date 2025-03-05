@@ -1,10 +1,27 @@
-/*Importa os estilos do cabeçalho*/
+/*Importa os estilos dos componentes*/
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
 /*Váriaveis globais da página*/
 :root{
     --cor-primaria: #f3f3f3;
     --cor-branca:#ffffff;
+    /*Cores*/
+    --cor-primaria-light:#67CDE5;
+    --cor-primaria-default: #289DB9;
+    --cor-primaria-dark: #11748C;
+
+    --cor-base-dark: #2E3E42;
+
+    /*Tipografia*/
+
+    --paragrafo-grande: normal normal 400 18px "DM Sans", sans-serif ;
+    --funcional-medio: normal normal 500 16px "DM Sans", sans-serif;
+    --funcional-pequeno: normal normal 500 14px "DM Sans", sans-serif;
 }
 body{
     background: var(--cor-primaria);
+    font-family: "DM Sans";    
 }
+
