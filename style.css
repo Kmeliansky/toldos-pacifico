@@ -2,6 +2,8 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+@import url("styles/produtos.css");
+@import url("styles/orcamento.css");
 
 /*Váriaveis globais da página*/
 :root{
@@ -15,6 +17,9 @@
     --cor-base-dark: #2E3E42;
 
     /*Tipografia*/
+    --titulo-h1:normal normal 500 37px "DM Sans", sans-serif;
+    --titulo-h2:normal normal 400 32px "DM Sans", sans-serif;
+    --titulo-h3:normal normal 400 24px "DM Sans", sans-serif;  
 
     --paragrafo-grande: normal normal 400 18px "DM Sans", sans-serif ;
     --funcional-medio: normal normal 500 16px "DM Sans", sans-serif;

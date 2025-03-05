@@ -1,27 +1,22 @@
 .banner{
     background-image: url("../img/banner-background.webp");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     color: var(--cor-branca);
     text-align: center;
     height: 437px;
     padding: 2.5em 2em;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
     
 }
-
 .banner__titulo{
-    font-size: 37px;
-    font-weight: 500;
+    font: var(--titulo-h1);
     letter-spacing: 2px;
 }
-
 .banner__texto{
     font: var(--paragrafo-grande);
-    margin: 2em 0;
+    margin: 1em 0;
 }
 .botao__orcamento{
     background: var(--cor-primaria-default);
