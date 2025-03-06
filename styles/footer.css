@@ -1,0 +1,20 @@
+.footer{
+    text-align: center;
+    padding: 2em 1em;
+}
+.logo__empresa{
+    width: 120px;
+    height: 120px;
+}
+
+.texto__footer{
+    font: var(--paragrafo-pequeno);
+    color: var(--cor-base-300);
+    padding: 2em 0;
+}
+
+.lista-menu-footer__item{
+    display: inline-block;
+    padding: 0.2em;
+    font: var(--funcional-pequeno);
+}

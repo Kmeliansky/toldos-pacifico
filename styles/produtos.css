@@ -1,16 +1,16 @@
 .produtos-titulo{
     font: var(--titulo-h2);
-    color: var(--cor-branca);
+    color: var(--cor-base-100);
     text-align: center;
-    padding: 1em 0 0.5em 0;;
+    padding: 1em 0 0.5em 0;
 }
 .produtos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1em;
-    background: var(--cor-base-dark);
+    padding: 2em 1em;
+    background: var(--cor-base-500);
 }
 .produto__card{
     margin: 1.5em 0;
@@ -21,14 +21,12 @@
 }
 .card-titulo{
     font: var(--titulo-h3);
-    color: var(--cor-branca);
+    color: var(--cor-base-100);
     text-align: center;
     margin: 0.5em 0;
 }
 .card-texto{
+    font: var(--paragrafo-medio);
     text-align: center;
-    font-size: 17;
     color: #B5C4C7;
-    font-weight: 300;
-    line-height: 24px;
 }

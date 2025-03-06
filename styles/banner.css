@@ -1,18 +1,15 @@
 .banner{
     background-image: url("../img/banner-background.webp");
     background-position: center;
-    color: var(--cor-branca);
+    color: var(--cor-base-100);
     text-align: center;
-    height: 437px;
-    padding: 2.5em 2em;
+    padding: 5.5em 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-between
-    
 }
 .banner__titulo{
     font: var(--titulo-h1);
-    letter-spacing: 2px;
 }
 .banner__texto{
     font: var(--paragrafo-grande);
@@ -20,20 +17,16 @@
 }
 .botao__orcamento{
     background: var(--cor-primaria-default);
+    font: var(--funcional-pequeno);
+    color: var(--cor-base-100);
     border: none;
     border-radius: 50px;
-    padding: 1em;
-    width: 200px;
+    padding: 1em 3em;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     margin: auto;
-    font: var(--funcional-pequeno);
     text-transform: uppercase;
-    color: var(--cor-branca);
-}
-.botao__orcamento :hover{
-    background: var(--cor-primaria-dark);
+    cursor: pointer;
 }
 .icone{
     width: 24px;

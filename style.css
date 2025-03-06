@@ -1,20 +1,24 @@
 /*Importa os estilos dos componentes*/
+@import url("styles/barra.css");
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/produtos.css");
 @import url("styles/orcamento.css");
+@import url("styles/cidade.css");
+@import url("styles/footer.css");
 
 /*Váriaveis globais da página*/
 :root{
-    --cor-primaria: #f3f3f3;
-    --cor-branca:#ffffff;
     /*Cores*/
+    --cor-base-100: #ffffff;
+    --cor-base-200: #9FAFB2;
+    --cor-base-300: #657B80;
+    --cor-base-400: #2E3E42;
+    --cor-base-500: #13292E;
     --cor-primaria-light:#67CDE5;
     --cor-primaria-default: #289DB9;
     --cor-primaria-dark: #11748C;
-
-    --cor-base-dark: #2E3E42;
 
     /*Tipografia*/
     --titulo-h1:normal normal 500 37px "DM Sans", sans-serif;
@@ -22,11 +26,14 @@
     --titulo-h3:normal normal 400 24px "DM Sans", sans-serif;  
 
     --paragrafo-grande: normal normal 400 18px "DM Sans", sans-serif ;
-    --funcional-medio: normal normal 500 16px "DM Sans", sans-serif;
-    --funcional-pequeno: normal normal 500 14px "DM Sans", sans-serif;
+    --paragrafo-medio: normal normal 300 17px/24px sans-serif;
+    --paragrafo-pequeno: normal normal 300 14px/20px sans-serif;
+
+    --funcional-medio: normal normal 400 16px "DM Sans", sans-serif;
+    --funcional-pequeno: normal normal 500 14px/20px "DM Sans", sans-serif;
 }
 body{
-    background: var(--cor-primaria);
+    background: var(--cor-base-100);
     font-family: "DM Sans";    
 }
 

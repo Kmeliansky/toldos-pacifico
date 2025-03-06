@@ -1,9 +1,9 @@
 .carrossel{
-    margin: 0 1em;
+    padding: 2em 1em;
 }
 .carrossel__titulo{
     font: var(--titulo-h2);
-    color: var(--cor-base-dark);
+    color: var(--cor-base-500);
     text-align: center;
     padding: 1em 0 0.5em 0;;
 }
