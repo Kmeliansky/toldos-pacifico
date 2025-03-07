@@ -37,3 +37,10 @@ body{
     font-family: "DM Sans";    
 }
 
+.whatsapp__btn{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 10;
+}
+

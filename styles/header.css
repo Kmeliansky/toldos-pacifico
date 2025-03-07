@@ -58,3 +58,29 @@
 .container__botao{
     display: none;
 }
+
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1em;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--cor-primaria-default);
+    }
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    .cabecalho{
+        width: 80%;
+        margin: auto;
+    }
+
+}

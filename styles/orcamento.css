@@ -1,5 +1,9 @@
 .orcamento{
     padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .orcamento-titulo{
     font: var(--titulo-h2);
@@ -12,4 +16,30 @@
     font: var(--paragrafo-medio);
     color: var(--cor-base-400);
     margin: 1em 0;
+}
+
+.negrito{
+    font-weight: bold;
+    color: var(--cor-primaria-default);
+}
+
+.botao__orcamento_cta{
+    background: var(--cor-primaria-default);
+    font: var(--funcional-pequeno);
+    color: var(--cor-base-100);
+    border: none;
+    border-radius: 50px;
+    padding: 1em 3em;;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px){
+    .orcamento{
+        padding: 4em;
+    }
 }

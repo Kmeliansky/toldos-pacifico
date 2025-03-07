@@ -6,7 +6,7 @@
     font: var(--titulo-h2);
     color: var(--cor-base-100);
     text-align: center;
-    padding: 1em 0 0.5em 0;
+    margin: 0 0 1em 0;
 }
 .cidades-container{
     display: flex;
@@ -14,4 +14,14 @@
     justify-content: center;
     color: var(--cor-base-200);
     gap: 20px;
+}
+
+@media screen and (min-width:1024px) {
+    .cidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4em 8em;
+    }
 }

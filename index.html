@@ -4,17 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toldos Pacifíco</title>
+    <meta name="description" content="Os melhores preços para Toldos articulados e italianos na região de São paulo. Solicite um orçamento agora!">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <meta property="og:image" content="https://pacifico.kangoo.digital//img/capa-de-compartilhamento-toldos-pacifico.webp">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Toldos Pacífico | Toldos Articulados e Italianos em São Paulo, SP",
+          "image": "https://pacifico.kangoo.digital/img/logo.svg",
+          "@id": "https://pacifico.kangoo/#webpage",
+          "url": "https://pacifico.kangoo.digital",
+          "telephone": "(15) 9 9720-1711",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. Visc. de Cairú, 338 - Mangal",
+            "addressLocality": "Botucatu",
+            "postalCode": "18040-335",
+            "addressCountry": "BR"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "18:00"
+          } 
+        }
+        </script>
 </head>
 <body>
+    <article class="barra">
+        <p class="barra__texto">Somos especialistas em Toldos Articulados e Italianos. SAIBA MAIS</p>
+    </article>
     <header class="cabecalho">
         <div class="container">
-            <img src="img/logo.svg" alt="Logo da Toldos Pacifico" class="container__imagem">
+            <img loading="lazy" src="img/logo.svg" alt="Logo da Toldos Pacifico" class="container__imagem">
         </div>
         <nav class="container">
           <input type="checkbox" id="menu" class="container__botao">
@@ -23,24 +60,34 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Menu</li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Inicio</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Fotos</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Produtos</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Cidades</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Orçamento</a></li>
+                <li class="lista-menu__item"><a href="#inicio" class="lista-menu__link">Inicio</a></li>
+                <li class="lista-menu__item"><a href="#fotos" class="lista-menu__link">Fotos</a></li>
+                <li class="lista-menu__item"><a href="#produtos" class="lista-menu__link">Produtos</a></li>
+                <li class="lista-menu__item"><a href="#cidades" class="lista-menu__link">Cidades</a></li>
+                <li class="lista-menu__item"><a href="#orcamento" class="lista-menu__link">Orçamento</a></li>
         </ul>
         </nav>
+            <ul class="opcoes">
+                <li class="opcoes__item"><a href="#inicio" class="lista-menu__link">Inicio</a></li>
+                <li class="opcoes__item"><a href="#fotos" class="lista-menu__link">Fotos</a></li>
+                <li class="opcoes__item"><a href="#produtos" class="lista-menu__link">Produtos</a></li>
+                <li class="opcoes__item"><a href="#cidades" class="lista-menu__link">Cidades</a></li>
+                <li class="opcoes__item"><a href="#orcamento" class="lista-menu__link">Orçamento</a></li>
+            </ul>
    </header>
-   <section class="banner">
+   <img loading="lazy" class="whatsapp__btn" src="img/whatsapp-icone.png" alt="Whatsapp">
+
+   <main>
+   <section id="inicio" class="banner">
     <h1 class="banner__titulo">Toldo Articulado e Italiano em São Paulo</h1>
     <p class="banner__texto">Instalamos Toldos Articuldos e Italianos em São Paulo, com pagamento somente após a instalação. Solicite um orçamento aqui</p>
-    <button type="button" class="botao__orcamento">
+    <a href="#" type="button" class="botao__orcamento">
         <span class="text">Orçamento</span>
-        <img class="icone" src="img/whatsapp.svg" alt="Faça seu orçamento pelo Whatsapp aqui">
-      </button>          
-</section>
+        <img loading="lazy" class="icone" src="img/whatsapp.svg" alt="Faça seu orçamento pelo Whatsapp aqui">
+      </a>          
+    </section>
 
-<section class="carrossel">
+<section id="fotos" class="carrossel">
     <h2 class="carrossel__titulo">Fotos</h2>
     <!-- Slider main container -->
     <div class="swiper">
@@ -48,11 +95,11 @@
 
         <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar.webp" alt="Toldo articulado em Policarbonato"></div>
-        <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-2.webp" alt="Toldo articulado em Policarbonato"></div>
-        <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-3.webp" alt="Toldo articulado em Policarbonato"></div>
-        <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-4.webp" alt="Toldo articulado em Policarbonato"></div>
-        <div class="swiper-slide"><img src="img/toldo-articulado-protecao-solar-5.webp" alt="Toldo articulado em Policarbonato"></div>
+        <div class="swiper-slide"><img loading="lazy" src="img/toldo-articulado-protecao-solar.webp" alt="Toldo articulado em Policarbonato"></div>
+        <div class="swiper-slide"><img loading="lazy" src="img/toldo-articulado-protecao-solar-2.webp" alt="Toldo articulado em Policarbonato"></div>
+        <div class="swiper-slide"><img loading="lazy" src="img/toldo-articulado-protecao-solar-3.webp" alt="Toldo articulado em Policarbonato"></div>
+        <div class="swiper-slide"><img loading="lazy" src="img/toldo-articulado-protecao-solar-4.webp" alt="Toldo articulado em Policarbonato"></div>
+        <div class="swiper-slide"><img loading="lazy" src="img/toldo-articulado-protecao-solar-5.webp" alt="Toldo articulado em Policarbonato"></div>
 
         </div>
 
@@ -66,38 +113,40 @@
     </div>
 </section>
 
-<section class="produtos">
+<section id="produtos" class="produtos">
 <h2 class="produtos-titulo">Toldos Articulados e Italianos em São Paulo</h2>
+<div class="container-produtos">
+
 <div class="produto__card">
-    <img class="produto-imagem" src="img/toldo-articulado-em-policarbonato.webp" alt="Toldo Articulado em Policarbonato">
+    <img loading="lazy" class="produto-imagem" src="img/toldo-articulado-em-policarbonato.webp" alt="Toldo Articulado em Policarbonato">
     <h3 class="card-titulo"> Toldo Articulado em Policarbonato</h3>
     <p class="card-texto">Toldo articulado em policarbonato revestido com material de alumínio e acabamento em madeira. Indicado para garagens e comercios</p>
 </div>
 
 <div class="produto__card">
-    <img class="produto-imagem" src="img/toldo-articulado-transparente.webp" alt="Toldo Articulado em Policarbonato">
+    <img loading="lazy" class="produto-imagem" src="img/toldo-articulado-transparente.webp" alt="Toldo Articulado em Policarbonato">
     <h3 class="card-titulo"> Toldo Articulado Transparente</h3>
     <p class="card-texto">Toldo articulado transparente em estrutura de alumínio antioxidante resistente a chuva e vento</p>
 </div>
 
 <div class="produto__card">
-    <img class="produto-imagem" src="img/toldo-articulado-automatico.webp" alt="Toldo Articulado em Policarbonato">
+    <img loading="lazy" class="produto-imagem" src="img/toldo-articulado-automatico.webp" alt="Toldo Articulado em Policarbonato">
     <h3 class="card-titulo"> Toldo Articulado Automático</h3>
     <p class="card-texto">Toldo articula automático com controle remoto e braço motorizado</p>
 </div>
-
+</div>
 </section>
 
-<section class="orcamento">
-<h2 class="orcamento-titulo">Entre em contato agora mesmo e agende uma consulta sem compromisso</h2>
+<section id="orcamento" class="orcamento">
+<h2 class="orcamento-titulo">Entre em contato agora mesmo e agende uma consulta <span class="negrito">sem compromisso</span></h2>
 <p class="orcamento-texto">Agendaremos uma visita imediata com as melhores soluções em toldos articulados em São Paulo e Região</p>
-<button type="button" class="botao__orcamento">
+<button type="button" class="botao__orcamento_cta">
     <span class="text">Orçamento</span>
-    <img class="icone" src="img/whatsapp.svg" alt="Faça seu orçamento pelo Whatsapp aqui">
+    <img loading="lazy" class="icone" src="img/whatsapp.svg" alt="Faça seu orçamento pelo Whatsapp aqui">
   </button>
 </section>
 
-<section class="cidades">
+<section id="cidades" class="cidades">
 <h2 class="cidade__titulo"> Cidades Atendidas</h2>
   <div class="cidades-container">
     <p class="cidades__container__item"> São Paulo, SP</p>
@@ -110,30 +159,33 @@
     <p class="cidades__container__item"> ABC, SP</p>
   </div>
 </section>
+</main>
 
 <footer class="footer">
-    <img class="logo__empresa" src="img/logo.svg" alt="logo da Toldos Pacífico">
+    <img loading="lazy" class="logo__empresa" src="img/logo.svg" alt="logo da Toldos Pacífico">
     <nav class="footer-menu">
       <ul class="lista-menu-footer">
-        <li class="lista-menu-footer__item"><a href="#" class="lista-menu__link">Inicio</a></li>
-        <li class="lista-menu-footer__item"><a href="#" class="lista-menu__link">Fotos</a></li>
-        <li class="lista-menu-footer__item"><a href="#" class="lista-menu__link">Produtos</a></li>
-        <li class="lista-menu-footer__item"><a href="#" class="lista-menu__link">Cidades</a></li>
-        <li class="lista-menu-footer__item"><a href="#" class="lista-menu__link">Orçamento</a></li>
+        <li class="lista-menu-footer__item"><a href="inicio" class="lista-menu__link">Inicio</a></li>
+        <li class="lista-menu-footer__item"><a href="fotos" class="lista-menu__link">Fotos</a></li>
+        <li class="lista-menu-footer__item"><a href="produtos" class="lista-menu__link">Produtos</a></li>
+        <li class="lista-menu-footer__item"><a href="cidades" class="lista-menu__link">Cidades</a></li>
+        <li class="lista-menu-footer__item"><a href="orcamento" class="lista-menu__link">Orçamento</a></li>
       </ul>
     </nav>
     <p class="texto__footer">
         A Política de Privacidade foi elaborada em conformidade com a Lei Federal n. 12.965 de 23 de abril de 2014 (Marco Civil da Internet), com a Lei Federal n. 13.709, de 14 de agosto de 2018 (Lei de Proteção de Dados Pessoais) e com o Regulamento UE n. 2016/679 de 27 de abril de 2016 (Regulamento Geral Europeu de Proteção de Dados Pessoais – RGDP), pode ser lida na íntegra clicando aqui.
     </p>
 </footer>
+
 <article class="barra">
     <p class="barra__texto">Criação e tráfego por Kangoo Digital</p>
 </article>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
 const swiper = new Swiper('.swiper', {
     spaceBetween: 10,
-    slidesPerView: 1,
+    slidesPerView: 4,
     pagination: {
             el: '.swiper-pagination',
             type: 'bullets',

@@ -30,3 +30,13 @@
     text-align: center;
     color: #B5C4C7;
 }
+
+@media screen and (min-width:1024px){
+    .container-produtos{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+}
