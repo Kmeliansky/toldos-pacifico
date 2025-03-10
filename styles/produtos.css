@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 2em 1em;
-    background: var(--cor-base-500);
+    background: var(--cor-primaria-dark);
 }
 .produto__card{
     margin: 1.5em 0;
@@ -28,7 +28,7 @@
 .card-texto{
     font: var(--paragrafo-medio);
     text-align: center;
-    color: #B5C4C7;
+    color: #b7d9f0;
 }
 
 @media screen and (min-width:1024px){
