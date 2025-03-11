@@ -10,6 +10,7 @@
 
 /*Váriaveis globais da página*/
 :root{
+
     /*Cores*/
     --cor-base-100: #ffffff;
     --cor-base-200: #9FAFB2;
@@ -24,11 +25,9 @@
     --titulo-h1:normal normal 500 37px "DM Sans", sans-serif;
     --titulo-h2:normal normal 400 32px "DM Sans", sans-serif;
     --titulo-h3:normal normal 400 24px "DM Sans", sans-serif;  
-
     --paragrafo-grande: normal normal 400 18px "DM Sans", sans-serif ;
     --paragrafo-medio: normal normal 300 17px/24px sans-serif;
     --paragrafo-pequeno: normal normal 300 14px/20px sans-serif;
-
     --funcional-medio: normal normal 400 16px "DM Sans", sans-serif;
     --funcional-pequeno: normal normal 500 14px/20px "DM Sans", sans-serif;
 }
@@ -36,7 +35,6 @@ body{
     background: var(--cor-base-100);
     font-family: "DM Sans";    
 }
-
 .whatsapp__btn{
     position: fixed;
     bottom: 2em;

@@ -5,7 +5,7 @@
     background-position: center;
     color: var(--cor-base-100);
     text-align: center;
-    padding: 5.5em 2em;
+    padding: 5.5em 8em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@
         background-size: cover;
         background-position: center;
         text-align: left;
-        padding: 12em;
+        padding: 12em 15em;
         display: block;
     }
     .botao__orcamento{
