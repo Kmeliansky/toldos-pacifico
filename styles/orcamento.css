@@ -24,8 +24,9 @@
 }
 
 .botao__orcamento_cta{
-    background: var(--cor-primaria-default);
+    background: var(--cor-enfase-default);
     font: var(--funcional-pequeno);
+    font-weight: bold;
     color: var(--cor-base-100);
     border: none;
     border-radius: 50px;

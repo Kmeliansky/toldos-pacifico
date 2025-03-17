@@ -5,3 +5,8 @@
     font: var(--paragrafo-pequeno);
     padding: 0.4em 1em
 }
+
+.barra__texto{
+    color: var(--cor-base-100);
+    text-decoration: none;
+}
